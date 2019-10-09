@@ -33,6 +33,7 @@ top:100px;
 
 
     .container-txt-deczno{
+        
         width: 100%;
         flex-wrap: wrap;
     }
@@ -47,12 +48,13 @@ top:100px;
 
     .top-image .imgtop{
         position: relative;
+        
         left:-10px;
         width: 50%;
     }
 
     .container-txt-deczno{
-        border:solid yellow;
+        
         margin-top:1px;
         padding: 1px;
     }
@@ -61,10 +63,10 @@ top:100px;
     .txt-box{
         width: 100%;
         order:2;
-        margin-top: -90px;
+        margin-top: -30px;
         padding: 1px;
         text-align: center;
-        border:solid;
+        
         justify-content: center;
     }
 
@@ -72,22 +74,57 @@ top:100px;
 
     .container-txt-deczno .wd-img{
         order:1;
-        top:-26%;
+        top:-37%;
         left:100px;
         width:70%;
     }
+    .conatiner-second{
+    width:100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    border:solid green;
+    }
 
     .container-second-left{
-        display: flex;
-        justify-content: center;
+        order: 3;
         text-align: center;
-        flex-direction: column;
-        padding: 1px;
+        
+      
         box-sizing: border-box;
         width:100%;
         z-index: 3;
+        
+        border:solid;
+        margin-top:89%;
     }
 
+    .container-second-right{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width:100%;
+        box-sizing: border-box;
+        border:solid yellow;
+    }
 
-
+    .img-bilety{
+        justify-content: center;
+        text-align: center;
+        z-index: 2;
+        width:70%;
+        
+        
+    }
+    .img-fotykola{
+    
+        position: relative;
+        order:1;
+        top:-990px;
+        left:33%;
+        width:60%;
+        
+        z-index: 66;
+        
+    }
 }
