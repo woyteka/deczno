@@ -151,6 +151,14 @@ top:100px;
         z-index: 1;
         }
 
+        .container-blue-txt{
+            margin-top:-670px;
 
+            
+        }
+
+        .container-blue-text-box{
+            padding-top:20px;
+        }
 
 }

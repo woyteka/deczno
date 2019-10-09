@@ -380,6 +380,16 @@ List
 - 04a box z treścią po lewej
 - 04b box z fotkami i biletem po prawej
 - 04c fota bilety
+- 04d grafika brzegu
+
+05 kontainer z niebieskim tłem
+- 05a kontainer do ustawianie boksów z trescią
+- 05b kontenery z trescią lewa strona
+- 05c kontenery z trescią prawa strona
+
+ /* 
+
+
 */
 
 /* FONT USED League-gothic
@@ -614,7 +624,11 @@ p{
     
 }
 
-
+ /* 
+---------------------------
+04d grafika brzegu
+---------------------------
+*/
 .container-brzeg-gora-img{
 display: flex;
 justify-content: center;
@@ -623,4 +637,70 @@ top:-370px;
 z-index: 1;
 }
 
+ /* 
+---------------------------
+05 kontainer z niebieskim tłem
+---------------------------
+*/
 
+.container-blue-txt{
+    display: flex;
+    justify-content: center;
+    background-color:#289abc;
+    margin-top:-370px;
+    width:100%;
+
+}
+
+
+
+
+ /* 
+---------------------------
+05a kontainer do ustawianie boksów z trescią
+---------------------------
+*/
+
+.container-blue-text-box{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    max-width:1366px;
+}
+
+.container-blue-text-box h1{
+    color:white;
+    font-size:30px;
+}
+
+ /* 
+---------------------------
+05b kontenery z trescią lewa strona
+---------------------------
+*/
+
+.container-blue-text-left{
+
+    display: flex;
+    flex-direction:column;
+    width:50%;
+    justify-content: right;
+    text-align: right;
+    padding:0 10px 10px 10px;
+    
+}
+
+/* 
+---------------------------
+05c kontenery z trescią prawa strona
+---------------------------
+*/
+
+.container-blue-text-right{
+    display: flex;
+    flex-direction:column;
+    width:50%;
+    justify-content: left;
+    text-align: left;
+    padding:0 10px 10px 10px;
+}
