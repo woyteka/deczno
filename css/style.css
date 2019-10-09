@@ -454,7 +454,7 @@ max-width:1366px;
     justify-content: center;
     flex-direction: row;
     width: 100%;
-    
+    flex-wrap: wrap;
     
  
  }
@@ -606,7 +606,7 @@ p{
 .img-fotykola{
     
     position: relative;
-    top:1%;
+    top:5%;
     left:-10%;
     width:160%;
     
