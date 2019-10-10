@@ -161,4 +161,17 @@ top:100px;
             padding-top:20px;
         }
 
+        .container-img-brzeg-dol{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: -10px;
+            background-color:#289abc;
+        }
+
+        .zapraszamypng{
+            margin-top:20px;
+            width:50%;
+        }
+
 }
