@@ -4,12 +4,13 @@
     .container-second-left{
         position: relative;
         top:-50%;
-        
+       
     }
 
     .container-second-right{
         position: relative;
 top:100px;
+
     }
 }
 
@@ -20,11 +21,13 @@ top:100px;
         position: relative;
         top:-50%;
         
+        
     }
 
     .container-second-right{
         position: relative;
 top:100px;
+
     }
 }
 
@@ -60,7 +63,7 @@ top:100px;
         padding-top: 1px;
         padding-left:10px;
         padding-right:10px;
-        
+       
         
     }
 
@@ -90,6 +93,7 @@ top:100px;
         top:-55%;
         left:100px;
         width:70%;
+        
     }
     .conatiner-second{
     width:100%;
@@ -97,19 +101,20 @@ top:100px;
     flex-wrap: wrap;
     justify-content: center;
     align-self: center;
-    
+    border:solid;
     
     }
 
     .container-second-left{
-        order: 3;
+        order: 1;
         text-align: center;
         box-sizing: border-box;
         width:100%;
         z-index: 3;
-        margin-top:150%;
         
+        color:red;
         padding-left: 0;
+        border:solid;
     }
 
     .container-second-right{
@@ -149,16 +154,18 @@ top:100px;
         position: relative;
         top:-670px;
         z-index: 1;
+        
         }
 
         .container-blue-txt{
             margin-top:-670px;
-
+            
             
         }
 
         .container-blue-text-box{
             padding-top:20px;
+            
         }
 
         .container-img-brzeg-dol{
@@ -167,11 +174,42 @@ top:100px;
             justify-content: center;
             margin-top: -10px;
             background-color:#289abc;
+            
         }
 
         .zapraszamypng{
             margin-top:20px;
             width:50%;
+            
         }
+
+
+
+        .conatainer-footer{
+            flex-wrap: wrap;
+            width:100%;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        .container-footer-left{
+            width:100%;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .container-footer-right{
+            width:100%;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .container-footer-info{
+            width:97%;
+            padding:10px 10px 10px 10px;
+           
+        }
+
 
 }
