@@ -478,7 +478,15 @@ max-width:1366px;
 */
 
  .top-image{
-    width:47%;
+     display: flex;
+    width:100%;
+    
+
+ }
+
+ .imgtop{
+    width:50%;
+    
  }
 
 
@@ -505,13 +513,20 @@ max-width:1366px;
 
 .container-txt-deczno .wd-img{
     display: flex;
-    justify-content: space-between;
+    
+    
+    
+    
+}
+
+.witamy-img{
     position: relative;
-    top:50px;
-    left:-130px;
-    width:90%;
-    
-    
+    left:-20%;
+    width: 100%;
+}
+
+.img-fotykola-min{
+display: none;
 }
 
 
@@ -525,15 +540,16 @@ max-width:1366px;
 .txt-box{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-left: 10%;
-    padding-right: 100px;
-    margin-top:100px;
-    
+    flex-wrap: wrap;
+    padding:15% 100px 30px 30px;
    
     text-align: left;
     
     
+}
+
+.txt-box-min{
+ display:none;       
 }
 
 h1{
@@ -600,6 +616,7 @@ z-index: 99;
 
 .img-bilety{
    width:40%;
+   z-index: 3;
  
     
     
@@ -619,11 +636,13 @@ z-index: 99;
 ---------------------------
 */
 .container-brzeg-gora-img{
-display: flex;
-justify-content: center;
-position: relative;
-top:-200px;
+    display: flex;
+    justify-content: center;
+
+width:100%;
+margin-top:-300px;
 z-index: 1;
+
 }
 
  /* 
@@ -636,7 +655,7 @@ z-index: 1;
     display: flex;
     justify-content: center;
     background-color:#289abc;
-    margin-top:-200px;
+    
     width:100%;
 
 }
