@@ -33,10 +33,14 @@
         
         box-sizing: border-box;
         padding-top: 1px;
-        padding-left:10px;
+        padding-left:30px;
         padding-right:10px;
        
         
+    }
+
+    .container-txt-deczno .wd-img{
+        width:120%;
     }
 
     .img-fotykola-min{

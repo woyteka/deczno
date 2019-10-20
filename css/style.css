@@ -513,6 +513,8 @@ max-width:1366px;
 
 .container-txt-deczno .wd-img{
     display: flex;
+    padding-top:30px;
+    box-sizing: content-box;
     
     
     
@@ -541,7 +543,7 @@ display: none;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding:15% 100px 30px 30px;
+    padding:5% 100px 30px 30px;
    
     text-align: left;
     
@@ -617,6 +619,8 @@ z-index: 99;
 .img-bilety{
    width:40%;
    z-index: 3;
+   position: relative;
+   top: -10px;
  
     
     
