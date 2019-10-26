@@ -194,7 +194,31 @@
         .container-footer-info{
             width:97%;
             padding:10px 10px 10px 10px;
+            flex-direction: column;
+            width: 100%;
            
+        }
+
+        .container-footer-info-left{
+            order:2;
+            justify-content: center;
+            padding-bottom: 15px;
+            width:100%;
+        }
+        .container-footer-info-center{
+            order:1;
+            width:100%;
+            justify-content: center;
+            padding-bottom: 15px;
+        }
+        .container-footer-info-right{
+            order:3;
+            width:100%;
+            justify-content: center;
+            padding-bottom: 10px;
+        }
+        .container-footer-info-center .icon{
+            padding:0 10px 0 0;
         }
 
 
